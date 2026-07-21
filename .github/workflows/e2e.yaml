@@ -5,7 +5,7 @@ jobs:
     runs-on: action-summary
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Generate 10KB of Text
         id: generate_text
